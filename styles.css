@@ -1,0 +1,54 @@
+body {
+    background-color: grey;
+}
+h1 {
+    color: purple;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: rgb(198, 195, 195);
+}
+
+.sidebar {
+    display: grid;
+    gap: 20px;
+    background-color: lightblue;
+}
+
+.top {
+    background-color: lightgreen;
+}
+
+.top,
+.middle,
+.bottom {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 2fr 5fr;
+    display: grid;
+    justify-items: center;
+    gap: 16px;
+}
+
+.middle {
+    background-color: greenyellow;
+}
+
+.top img,
+.middle img,
+.bottom img {
+    justify-self: end;
+    align-self: center;
+}
+
+.top h2,
+.middle span,
+.bottom span {
+    justify-self: start;
+}
+
+.bottom {
+    background-color: green;
+}
