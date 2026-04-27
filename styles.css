@@ -216,7 +216,10 @@ input[type="search"] {
 .user {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    justify-items: start;
     column-gap: 10px;
     font-size: small;
+}
+
+.user img {
+    justify-self: center;
 }
