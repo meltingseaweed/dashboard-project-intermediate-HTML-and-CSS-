@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: #E9e2d8;
+}
+
 hr {
     width: 80%;
     height: 1px;
@@ -92,14 +97,17 @@ input[type="search"] {
 .my-profile {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
-    justify-self: center;
-    justify-items: start;
+    justify-items: center;
     align-items: center;
-    gap: 20px;
+    gap: 5px;
 }
  .my-profile svg {
     fill: #cb7a5c;
-    justify-self: end;
+    /* justify-self: end; */
+ }
+
+ .my-profile p {
+    font-size: small;
  }
 
 .title {
@@ -210,4 +218,5 @@ input[type="search"] {
     grid-template-columns: 1fr 2fr;
     justify-items: start;
     column-gap: 10px;
+    font-size: small;
 }
